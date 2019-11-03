@@ -1,9 +1,16 @@
 def new_hash
-  # return an empty hash
+  hash = {}
+  return hash
 end
 
 def my_hash
-  # return a valid hash with any key/value pair of your choice
+  hash = {
+    :num1 => "First",
+    :num2 => "Second",
+    :num3 => "Third",
+  }
+  
+  return hash[:num1]
 end
 
 def pioneer
