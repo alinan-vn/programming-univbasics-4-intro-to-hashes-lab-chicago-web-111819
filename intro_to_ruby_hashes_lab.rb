@@ -10,7 +10,7 @@ def my_hash
     :num3 => "Third",
   }
   
-  return hash[:num1]
+  return hash
 end
 
 def pioneer
